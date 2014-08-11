@@ -20,6 +20,7 @@
 			<string>Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems.</string>
 			<key>display_name</key>
 			<string>Audacity</string>
+			<key>icon_name</key>
 			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
