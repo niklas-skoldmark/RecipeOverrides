@@ -24,6 +24,8 @@
             <string>VideoLAN</string>
             <key>display_name</key>
 			<string>VLC Media Player</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

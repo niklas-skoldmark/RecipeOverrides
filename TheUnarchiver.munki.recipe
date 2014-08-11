@@ -24,6 +24,8 @@
             <string>Dag Ågren</string>
             <key>display_name</key>
 			<string>The Unarchiver</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

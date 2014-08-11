@@ -22,6 +22,8 @@
 			<string>Spotify är en musikströmmningstjänst som erbjuder obegränsad strömning av utvald musik från stora och oberoende skivbolag.</string>
 			<key>developer</key>
             <string>Spotify</string>
+            <key>icon_name</key>
+            <string>%NAME%.icns</string>
 			<key>display_name</key>
 			<string>Spotify</string>
 			<key>name</key>

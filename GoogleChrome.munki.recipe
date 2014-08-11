@@ -24,6 +24,8 @@
             <string>Google</string>
 			<key>display_name</key>
 			<string>Google Chrome</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
