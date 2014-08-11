@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string>apps/Google/Chrome</string>
 		<key>NAME</key>
 		<string>GoogleChrome</string>
 		<key>pkginfo</key>
@@ -16,8 +16,12 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+            <string>Webbläsare</string>
 			<key>description</key>
-			<string>Chrome is a fast, simple, and secure web browser, built for the modern web.</string>
+			<string>Chrome är en snabb, enkel och säker webbläsare utvecklad av Google</string>
+			<key>developer</key>
+            <string>Google</string>
 			<key>display_name</key>
 			<string>Google Chrome</string>
 			<key>name</key>

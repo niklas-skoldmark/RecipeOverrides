@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/TextWrangler</string>
+		<string>apps/BareBonesSoftware/TextWrangler</string>
 		<key>NAME</key>
 		<string>TextWrangler</string>
 		<key>pkginfo</key>
@@ -16,8 +16,12 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+            <string>Textredigerare</string>
 			<key>description</key>
-			<string>TextWrangler is the powerful general purpose text editor, and Unix and server administrator's tool. TextWrangler is the "little brother" to BBEdit, a leading professional HTML and text editor.</string>
+			<string>TextWrangler är en kraftfull textredigerare. TextWrangler är BBEdit's "lillebror".</string>
+			<key>developer</key>
+            <string>Bare Bones Software</string>
 			<key>display_name</key>
 			<string>TextWrangler</string>
 			<key>name</key>
