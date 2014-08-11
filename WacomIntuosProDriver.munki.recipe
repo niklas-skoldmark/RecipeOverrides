@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.WacomIntuosProDriver</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_DESCRIPTION</key>
+		<string>Drivers and support software for the Wacom Intuos Pro tablets.</string>
+		<key>MUNKI_DISPLAYNAME</key>
+		<string>WacomIntuosProDriver</string>
+		<key>MUNKI_NAME</key>
+		<string>%NAME%</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>drivers</string>
+		<key>NAME</key>
+		<string>WacomIntuosProDriver</string>
+		<key>WACOM_PKG_NAME</key>
+		<string>Install Wacom Tablet.pkg</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>%MUNKI_DESCRIPTION%</string>
+			<key>displayname</key>
+			<string>%MUNKI_DISPLAYNAME%</string>
+			<key>minimum_os_version</key>
+			<string>10.6</string>
+			<key>name</key>
+			<string>%MUNKI_NAME%</string>
+			<key>notes</key>
+			<string>
+				- Items staged to /tmp/ from pkg, later moved elsewhere (thus not represented in pkg bom)
+					+ /Library/Frameworks/WacomMultiTouch.framework/
+					+ /Library/Internet Plug-Ins/WacomTabletPlugin.plugin
+				- A binary in one of the support apps creates the following:
+					+ /Library/LaunchAgents/com.wacom.wacomtablet.plist
+				- By using Wacom's uninstall script (called by this pkginfo's uninstall_script) all should be cleaned up appropriately.
+			</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>uninstall_method</key>
+			<string>uninstall_script</string>
+			<key>uninstall_script</key>
+			<string>#!/bin/bash
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+uninstall_script="/Applications/Wacom Tablet.localized/Wacom Table Utility.app/Contents/Resources/uninstall.pl"
+if [[ -f "$uninstall_script" &amp;&amp; -x "$uninstall_script" ]]; then
+	"$uninstall_script"
+else
+	logger -is "ERROR: Could not locate uninstall_script: $uninstall_script"
+	exit 1
+fi</string>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.WacomIntuosProTabletDriver</string>
+</dict>
+</plist>

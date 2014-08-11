@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.download.Sibelius</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://apps.avid.com/SibeliusTrial/registered_x10.html</string>
+		<key>NAME</key>
+		<string>Sibelius</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.hansen-m.download.Sibelius</string>
+</dict>
+</plist>

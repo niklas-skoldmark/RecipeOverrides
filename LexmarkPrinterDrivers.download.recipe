@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.download.LexmarkPrinterDrivers</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>LexmarkPrinterDrivers</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.hansen-m.download.LexmarkPrinterDrivers</string>
+</dict>
+</plist>
