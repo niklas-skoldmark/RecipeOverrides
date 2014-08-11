@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.MAS-Keynote</string>
+	<string>local.munki.MAS-MainStage3</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Apple/iWork</string>
+		<string>apps/Apple/MainStage3</string>
 		<key>NAME</key>
-		<string>Keynote</string>
+		<string>MainStage3</string>
 		<key>PATH</key>
 		<string>/Applications/%NAME%.app</string>
 		<key>pkginfo</key>
@@ -19,17 +19,15 @@
 				<string>release</string>
 			</array>
 			<key>display_name</key>
-			<string>%NAME%</string>
+			<string>Main Stage 3</string>
 			<key>category</key>
-			<string>iWork</string>
+			<string>Musik</string>
 			<key>developer</key>
 			<string>Apple</string>
 			<key>icon_name</key>
 			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>unattended_install</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
