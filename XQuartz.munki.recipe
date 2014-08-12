@@ -9,7 +9,7 @@
 		<key>BRANCH</key>
 		<string>release</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>utilities</string>
+		<string>verktyg</string>
 		<key>NAME</key>
 		<string>XQuartz</string>
 		<key>pkginfo</key>
@@ -23,11 +23,17 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Kompatibilitet</string>
 			<key>description</key>
 			<string>A version of the X.Org X Window System that runs on OS X
 The XQuartz project is an open-source effort to develop a version of the X.Org X Window System that runs on OS X. Together with supporting libraries and applications, it forms the X11.app that Apple has shipped with OS X since version 10.5.</string>
+			<key>developer</key>
+			<string>XQuartz</string>
 			<key>display_name</key>
 			<string>%NAME%</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>minimum_os_version</key>
 			<string>10.6.3</string>
 			<key>name</key>

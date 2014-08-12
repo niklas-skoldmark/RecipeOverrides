@@ -24,13 +24,15 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Internet</string>
+			<string>Fjärrstyrning</string>
 			<key>description</key>
 			<string>All-In-One Solution for Remote Access and Support over the Internet.</string>
 			<key>developer</key>
 			<string>TeamViewer GmbH</string>
 			<key>display_name</key>
 			<string>TeamViewer QuickSupport</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>minimum_os_version</key>
 			<string>10.5</string>
 			<key>name</key>

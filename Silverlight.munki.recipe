@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft/Silverlight</string>
+		<string>apps/microsoft/silverlight</string>
 		<key>NAME</key>
 		<string>Silverlight</string>
 		<key>pkginfo</key>
@@ -17,13 +17,15 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-            <string>WebbPlugin</string>
+			<string>WebbPlugin</string>
 			<key>description</key>
 			<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 			<key>developer</key>
-            <string>Microsoft</string>
+			<string>Microsoft</string>
 			<key>display_name</key>
 			<string>Microsoft Silverlight</string>
+			<key>icon_name</key>
+			<string></string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

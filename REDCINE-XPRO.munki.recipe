@@ -10,6 +10,12 @@
 		<string>apps/RED</string>
 		<key>NAME</key>
 		<string>REDCINE-XPRO</string>
+		<key>category</key>
+		<string>Video</string>
+		<key>developer</key>
+		<string>Red</string>
+		<key>icon_name</key>
+		<string>%NAME%.icns</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

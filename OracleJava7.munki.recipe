@@ -10,6 +10,12 @@
 		<string>plugins/Java</string>
 		<key>NAME</key>
 		<string>OracleJava7</string>
+		<key>category</key>
+		<string>Webbplugin</string>
+		<key>developer</key>
+		<string>Oracle</string>
+		<key>icon_name</key>
+		<string>%NAME%.icns</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

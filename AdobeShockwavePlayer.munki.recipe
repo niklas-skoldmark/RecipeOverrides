@@ -10,6 +10,12 @@
 		<string>apps/adobe</string>
 		<key>NAME</key>
 		<string>AdobeShockwavePlayer</string>
+		<key>category</key>
+		<string>Webbplugin</string>
+		<key>developer</key>
+		<string>Adobe</string>
+		<key>icon_name</key>
+		<string>%NAME%.icns</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

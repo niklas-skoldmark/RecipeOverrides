@@ -16,10 +16,16 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Kompatibilitet</string>
 			<key>description</key>
 			<string>Adobe Digital Editions software offers an engaging way to view and manage eBooks and other digital publications. Use it to download and purchase digital content, which can be read both online and offline. Transfer copy-protected eBooks from your personal computer to other computers or devices. Organize your eBooks into a custom library and annotate pages. Digital Editions also supports industry-standard eBook formats, including PDF/A and EPUB.</string>
+			<key>developer</key>
+			<string>Adobe</string>
 			<key>display_name</key>
 			<string>Adobe Digital Editions</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

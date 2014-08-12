@@ -16,10 +16,16 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Webbplugin</string>
 			<key>description</key>
 			<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
+			<key>developer</key>
+			<string>XQuartz</string>
 			<key>display_name</key>
 			<string>Adobe Flash Player</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

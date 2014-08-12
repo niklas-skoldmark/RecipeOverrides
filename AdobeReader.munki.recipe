@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>LANGUAGE</key>
-		<string>English</string>
+		<string>Swedish</string>
 		<key>MAJOR_VERSION</key>
 		<string>11</string>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -25,10 +25,16 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Kompatibilitet</string>
 			<key>description</key>
 			<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.</string>
+			<key>developer</key>
+			<string>Adobe</string>
 			<key>display_name</key>
 			<string>Adobe Reader</string>
+			<key>icon_name</key>
+			<string>%NAME%.icns</string>
 			<key>minimum_os_version</key>
 			<string>10.6.4</string>
 			<key>name</key>

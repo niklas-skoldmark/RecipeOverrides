@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.munki.MAS-MainStage3</string>
+	<string>local.munki.MAS-Logic Pro X</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Apple/MainStage3</string>
+		<string>apps/Apple/LogicProX</string>
 		<key>NAME</key>
-		<string>MainStage3</string>
+		<string>LogicProX</string>
 		<key>PATH</key>
-		<string>/Applications/%NAME%.app</string>
+		<string>/Applications/Logic Pro X.app</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -19,7 +19,7 @@
 				<string>release</string>
 			</array>
 			<key>display_name</key>
-			<string>Main Stage 3</string>
+			<string>Logic Pro X</string>
 			<key>category</key>
 			<string>Musik</string>
 			<key>developer</key>
@@ -28,6 +28,8 @@
 			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
