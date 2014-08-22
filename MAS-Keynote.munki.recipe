@@ -16,7 +16,7 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>release</string>
+				<string>testing</string>
 			</array>
 			<key>display_name</key>
 			<string>%NAME%</string>
