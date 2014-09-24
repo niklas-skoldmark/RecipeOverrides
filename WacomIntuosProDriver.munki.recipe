@@ -13,7 +13,7 @@
 		<key>MUNKI_NAME</key>
 		<string>%NAME%</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>drivers/Wacom</string>
+		<string>autopkg/drivers/wacom</string>
 		<key>NAME</key>
 		<string>WacomIntuosProDriver</string>
 		<key>WACOM_PKG_NAME</key>
@@ -27,11 +27,9 @@
 			<key>description</key>
 			<string>%MUNKI_DESCRIPTION%</string>
 			<key>category</key>
-			<string>Drivers</string>
+			<string>Drivrutiner</string>
 			<key>developer</key>
 			<string>Wacom</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>displayname</key>
 			<string>%MUNKI_DISPLAYNAME%</string>
 			<key>minimum_os_version</key>
