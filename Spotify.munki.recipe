@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Spotify</string>
+		<string>autopkg/apps/spotify</string>
 		<key>NAME</key>
 		<string>Spotify</string>
 		<key>pkginfo</key>
@@ -17,13 +17,11 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-            <string>Musik</string>
+            		<string>Musik</string>
 			<key>description</key>
 			<string>Spotify är en musikströmmningstjänst som erbjuder obegränsad strömning av utvald musik från stora och oberoende skivbolag.</string>
 			<key>developer</key>
-            <string>Spotify</string>
-            <key>icon_name</key>
-            <string>%NAME%.icns</string>
+            		<string>Spotify</string>
 			<key>display_name</key>
 			<string>Spotify</string>
 			<key>name</key>
