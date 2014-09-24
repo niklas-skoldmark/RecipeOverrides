@@ -11,7 +11,7 @@
 		<key>MAJOR_VERSION</key>
 		<string>11</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Adobe</string>
+		<string>autopkg/apps/adobe</string>
 		<key>NAME</key>
 		<string>AdobeReader</string>
 		<key>pkginfo</key>
@@ -33,8 +33,6 @@
 			<string>Adobe</string>
 			<key>display_name</key>
 			<string>Adobe Reader</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>minimum_os_version</key>
 			<string>10.6.4</string>
 			<key>name</key>
