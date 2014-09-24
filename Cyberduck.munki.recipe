@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Cyberduck</string>
+		<string>autopkg/apps/cyberduck</string>
 		<key>NAME</key>
 		<string>Cyberduck</string>
 		<key>pkginfo</key>
@@ -24,8 +24,6 @@
 			<string>Verktyg</string>
 			<key>developer</key>
 			<string>Cyberduck</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
