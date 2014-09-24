@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/VideoLAN/VLC</string>
+		<string>autopkg/apps/vlc</string>
 		<key>NAME</key>
 		<string>VLC</string>
 		<key>pkginfo</key>
@@ -17,15 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-            <string>Videospelare</string>
+            		<string>Video</string>
 			<key>description</key>
 			<string>VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.</string>
 			<key>developer</key>
-            <string>VideoLAN</string>
-            <key>display_name</key>
+            		<string>VideoLAN</string>
+            		<key>display_name</key>
 			<string>VLC Media Player</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

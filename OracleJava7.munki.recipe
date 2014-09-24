@@ -7,15 +7,13 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>plugins/Java</string>
+		<string>autopkg/apps/oracle/java7</string>
 		<key>NAME</key>
 		<string>OracleJava7</string>
 		<key>category</key>
-		<string>Webbplugin</string>
+		<string>WebbPlugins</string>
 		<key>developer</key>
 		<string>Oracle</string>
-		<key>icon_name</key>
-		<string>%NAME%.icns</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>

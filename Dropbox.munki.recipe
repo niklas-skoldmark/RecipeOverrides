@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Dropbox</string>
+		<string>autopkg/apps/dropbox</string>
 		<key>NAME</key>
 		<string>Dropbox</string>
 		<key>pkginfo</key>
@@ -24,8 +24,6 @@
 			<string>Cloud Storage</string>
 			<key>display_name</key>
 			<string>Dropbox</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

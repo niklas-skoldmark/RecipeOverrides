@@ -8,8 +8,11 @@
         <dict>
                 <key>LOCALE</key>
                 <string>sv_SE</string>
+<<<<<<< HEAD
+=======
                 <key>MUNKI_REPO_SUBDIR</key>
-                <string>apps/Mozilla/Firefox</string>
+                <string>autopkg/apps/mozilla/firefox</string>
+>>>>>>> FETCH_HEAD
                 <key>NAME</key>
                 <string>Firefox</string>
                 <key>RELEASE</key>
@@ -20,16 +23,8 @@
                         <array>
                                 <string>testing</string>
                         </array>
-                        <key>category</key>
-                        <string>Webbläsare</string>
-                        <key>description</key>
-                        <string>Mozilla Firefox är en gratis webbläsare utvecklad med öppen källkod</string>
-                        <key>developer</key>
-                        <string>Mozilla</string>
                         <key>display_name</key>
                         <string>Mozilla Firefox</string>
-                        <key>icon_name</key>
-                        <string>%NAME%.icns</string>
                         <key>name</key>
                         <string>%NAME%</string>
                         <key>unattended_install</key>

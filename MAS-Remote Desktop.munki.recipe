@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Apple/RemoteDesktop</string>
+		<string>autopkg/apps/apple/remotedesktop</string>
 		<key>NAME</key>
 		<string>RemoteDesktop</string>
 		<key>PATH</key>
@@ -21,11 +21,9 @@
 			<key>display_name</key>
 			<string>Remote Desktop</string>
 			<key>category</key>
-			<string>Remote Control</string>
+			<string>Admin</string>
 			<key>developer</key>
 			<string>Apple</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

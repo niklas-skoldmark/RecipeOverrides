@@ -9,7 +9,7 @@
 		<key>CULTURE_CODE</key>
 		<string>041D</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Microsoft/Office2011</string>
+		<string>autopkg/apps/microsoft/office2011</string>
 		<key>NAME</key>
 		<string>MSLync</string>
 		<key>VERSION</key>
@@ -18,8 +18,6 @@
 		<string>Kommunikation</string>
 		<key>developer</key>
 		<string>Microsoft</string>
-		<key>icon_name</key>
-		<string>%NAME%.icns</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
