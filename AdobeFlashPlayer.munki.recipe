@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>internet_plugins</string>
+		<string>autopkg/adobe</string>
 		<key>NAME</key>
 		<string>AdobeFlashPlayer</string>
 		<key>pkginfo</key>
@@ -17,15 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Webbplugin</string>
+			<string>WebbPlugins</string>
 			<key>description</key>
 			<string>Adobe® Flash® Player is a cross-platform browser-based application runtime that delivers uncompromised viewing of expressive applications, content, and videos across screens and browsers.</string>
 			<key>developer</key>
-			<string>XQuartz</string>
+			<string>Adobe</string>
 			<key>display_name</key>
 			<string>Adobe Flash Player</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
