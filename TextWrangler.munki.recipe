@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/BareBonesSoftware/TextWrangler</string>
+		<string>autopkg/apps/barebonessoftware/textwrangler</string>
 		<key>NAME</key>
 		<string>TextWrangler</string>
 		<key>pkginfo</key>
@@ -17,15 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-            <string>Textredigerare</string>
+            		<string>Textredigerare</string>
 			<key>description</key>
 			<string>TextWrangler är en kraftfull textredigerare. TextWrangler är BBEdit's "lillebror".</string>
 			<key>developer</key>
-            <string>Bare Bones Software</string>
+            		<string>Bare Bones Software</string>
 			<key>display_name</key>
 			<string>TextWrangler</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
