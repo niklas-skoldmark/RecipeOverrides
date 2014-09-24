@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.i1Profiler</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/XRite</string>
+		<key>NAME</key>
+		<string>i1Profiler</string>
+		<key>PKG_NAME</key>
+		<string>i1Profiler Silent.pkg</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://lbxritecom.liquidweb.xrite.com/Downloads/Autoupdate/i1profiler_mac_appcast.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>i1ProfilerTray</string>
+				<string>i1Profiler</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>developer</key>
+			<string>X-Rite</string>
+			<key>description</key>
+			<string>i1Profiler Profile Creation Tool</string>
+			<key>display_name</key>
+			<string>i1Profiler</string>
+			<key>minimum_os_version</key>
+			<string>10.6.0</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>receipts</key>
+			<array>
+				<dict>
+					<key>optional</key>
+					<true/>
+					<key>packageid</key>
+					<string>com.xrite.hasp.installer.pkg</string>
+					<key>version</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.mosen.munki.i1Profiler</string>
+</dict>
+</plist>
