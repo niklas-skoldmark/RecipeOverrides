@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/LibreOffice</string>
+		<string>autopkg/apps/libreoffice</string>
 		<key>NAME</key>
 		<string>LibreOffice</string>
 		<key>pkginfo</key>
@@ -17,15 +17,13 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Officepacket</string>
+			<string>OfficePaket</string>
 			<key>description</key>
 			<string>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.</string>
 			<key>developer</key>
 			<string>XQuartz</string>
 			<key>display_name</key>
 			<string>LibreOffice</string>
-			<key>icon_name</key>
-			<string>%NAME%.icns</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
