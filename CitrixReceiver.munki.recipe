@@ -28,7 +28,7 @@
 			<key>display_name</key>
 			<string>Citrix Receiver</string>
 			<key>category</key>
-			<string>Remote Control</string>
+			<string>Fjärrskrivbord</string>
 			<key>developer</key>
 			<string>Citrix</string>
 			<key>minimum_os_version</key>

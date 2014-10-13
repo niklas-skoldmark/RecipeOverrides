@@ -10,10 +10,6 @@
 		<string>autopkg/apps/istopmotion3</string>
 		<key>NAME</key>
 		<string>iStopMotion</string>
-		<key>category</key>
-		<string>Video</string>
-		<key>developer</key>
-		<string>Boinx</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -22,6 +18,10 @@
 			</array>
 			<key>description</key>
 			<string>Create stop-motion animated movies.</string>
+			<key>category</key>
+			<string>Video</string>
+			<key>developer</key>
+			<string>Boinx</string>
 			<key>display_name</key>
 			<string>iStopMotion</string>
 			<key>name</key>

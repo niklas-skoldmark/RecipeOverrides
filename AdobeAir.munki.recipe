@@ -10,10 +10,6 @@
 		<string>autopkg/apps/adobe</string>
 		<key>NAME</key>
 		<string>AdobeAIR</string>
-		<key>category</key>
-		<string>WebbPlugins</string>
-		<key>developer</key>
-		<string>Adobe</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -24,6 +20,10 @@
 			<string>The Adobe AIR runtime enables developers to package the same code into native applications and games for Windows and Mac OS desktops as well as iOS and Android devices, reaching over a billion desktop systems and mobile app stores for over 500 million devices.</string>
 			<key>display_name</key>
 			<string>Adobe® Integrated Runtime</string>
+			<key>category</key>
+			<string>WebbPlugins</string>
+			<key>developer</key>
+			<string>Adobe</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
