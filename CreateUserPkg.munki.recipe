@@ -9,7 +9,7 @@
 		<key>APP_DESTINATION</key>
 		<string>/Applications/Utilities</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>utilities</string>
+		<string>autopkg/apps/utilities</string>
 		<key>NAME</key>
 		<string>CreateUserPkg</string>
 		<key>pkginfo</key>
@@ -29,6 +29,10 @@ In 10.7 and up this is converted to PBKDF2 upon first login, which is much harde
 If you enable automatic login the password is stored in a kcpassword file, which is merely obfuscated and not encrypted - extracting the password (no matter how strong) is trivial.</string>
 			<key>display_name</key>
 			<string>CreateUserPkg - Create packages to deploy Mac OS X user accounts</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>Per Olofsson</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

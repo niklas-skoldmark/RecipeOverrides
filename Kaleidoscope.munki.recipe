@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>dev</string>
+		<string>autopkg/apps/kaleidoscope</string>
 		<key>NAME</key>
 		<string>Kaleidoscope</string>
 		<key>SPARKLE_FEED_URL</key>
@@ -22,6 +22,10 @@
 			<string>Easily spot the differences in text and image files. Review changes in seconds with the world's most advanced Mac diff tool.</string>
 			<key>display_name</key>
 			<string>Kaleidoscope</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>BlackPixel</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

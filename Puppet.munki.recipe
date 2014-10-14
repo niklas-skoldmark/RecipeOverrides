@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>support/Puppet</string>
+		<string>autopkg/apps/puppetlabs/puppet</string>
 		<key>NAME</key>
 		<string>Puppet</string>
 		<key>VERSION</key>
@@ -22,6 +22,10 @@
 			<string>Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively.</string>
 			<key>display_name</key>
 			<string>%NAME%</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>PuppetLabs</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>requires</key>

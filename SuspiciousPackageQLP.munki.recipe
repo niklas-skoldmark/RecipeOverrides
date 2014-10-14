@@ -8,6 +8,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>SuspiciousPackageQLP</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>autopkg/apps/suspiciouspackage</string>
 		<key>pkg_url</key>
 		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.pkg</string>
 		<key>pkginfo</key>
@@ -16,6 +18,10 @@
 			<string>Suspicious Package: A Quick Look Plug-in for OS X Installer Packages. What's in that OS X Installer package? With Suspicious Package, you can find out quickly and safely from the Finder. Select a package, and hit the space bar. http://www.mothersruin.com/software/SuspiciousPackage/</string>
 			<key>display_name</key>
 			<string>Suspicious Package QuickLook Plug-in</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>MothersRuin</string>
 			<key>minimum_os_version</key>
 			<string>10.8</string>
 			<key>name</key>

@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>DeployStudio</string>
+		<string>autopkg/apps/deploystudio</string>
 		<key>NAME</key>
 		<string>DeployStudioAdmin</string>
 		<key>pkginfo</key>
@@ -67,6 +67,10 @@ Saving time is a daily concern for system administrators, especially with the in
 					<string>choice12</string>
 				</dict>
 			</array>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>DeployStudio</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>supported_architectures</key>

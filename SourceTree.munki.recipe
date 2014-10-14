@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Atlassian</string>
+		<string>autopkg/apps/atlassian</string>
 		<key>NAME</key>
 		<string>SourceTree</string>
 		<key>SPARKLE_FEED_URL</key>
@@ -19,7 +19,7 @@
 				<string>testing</string>
 			</array>
 			<key>category</key>
-			<string>Developer</string>
+			<string>Admin</string>
 			<key>description</key>
 			<string>SourceTree is a free Mercurial and Git client for Windows and Mac that provides a graphical interface for your Hg and Git repositories.</string>
 			<key>developer</key>

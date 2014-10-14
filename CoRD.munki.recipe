@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/CoRD</string>
+		<string>autopkg/apps/cord</string>
 		<key>NAME</key>
 		<string>CoRD</string>
 		<key>SPARKLE_FEED_URL</key>
@@ -21,6 +21,10 @@
 			<key>description</key>
 			<string>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol.</string>
 			<key>display_name</key>
+			<string>CoRD</string>
+			<key>category</key>
+			<string>Fjärrskrivbord</string>
+			<key>developer</key>
 			<string>CoRD</string>
 			<key>name</key>
 			<string>%NAME%</string>

@@ -9,7 +9,7 @@
 		<key>APP_DESTINATION</key>
 		<string>/Applications</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string>autopkg/apps/pgadmin</string>
 		<key>NAME</key>
 		<string>pgAdmin3</string>
 		<key>pkginfo</key>
@@ -21,6 +21,10 @@
 			<key>description</key>
 			<string>pgAdmin is the leading graphical Open Source management, development and administration tool for PostgreSQL.</string>
 			<key>display_name</key>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>PGadmin</string>
 			<string>pgAdmin3 - Postgresql GUI tools</string>
 			<key>name</key>
 			<string>%NAME%</string>

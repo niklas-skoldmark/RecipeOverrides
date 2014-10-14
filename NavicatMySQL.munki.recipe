@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://download.navicat.com/download/navicat110_mysql_en.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string>autopkg/apps/navicat</string>
 		<key>NAME</key>
 		<string>NavicatMySQL</string>
 		<key>USER_AGENT</key>
@@ -24,6 +24,10 @@
 			<string>Navicat for MySQL</string>
 			<key>display_name</key>
 			<string>Navicat for MySQL</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>Navicat</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>supported_architectures</key>

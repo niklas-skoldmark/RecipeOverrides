@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string>autopkg/apps/vagrantmanager</string>
 		<key>NAME</key>
 		<string>VagrantManager</string>
 		<key>pkginfo</key>
@@ -20,6 +20,10 @@
 			<string>Vagrant Manager is an OS X status bar menu app that lets you manage all of your vagrant machines from one central location.</string>
 			<key>display_name</key>
 			<string>Vagrant Manager</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>VagrantUp</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

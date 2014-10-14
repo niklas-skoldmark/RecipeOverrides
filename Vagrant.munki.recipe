@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Vagrant</string>
+		<string>autopkg/apps/vagrant</string>
 		<key>NAME</key>
 		<string>Vagrant</string>
 		<key>pkginfo</key>
@@ -28,6 +28,10 @@
 			<string>HashiCorp</string>
 			<key>display_name</key>
 			<string>Vagrant</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>VagrantUp</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

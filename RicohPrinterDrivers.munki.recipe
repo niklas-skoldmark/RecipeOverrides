@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>Printers/Drivers</string>
+		<string>autopkg/drivers/printers/ricoh</string>
 		<key>NAME</key>
 		<string>RicohPrinterDrivers</string>
 		<key>pkginfo</key>
@@ -20,6 +20,10 @@
 			<string>Provides the latest Ricoh printing and scanning software for OS X.</string>
 			<key>display_name</key>
 			<string>Ricoh Printer Drivers</string>
+			<key>category</key>
+			<string>Drivrutiner</string>
+			<key>developer</key>
+			<string>Apple</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

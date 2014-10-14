@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>support/Facter</string>
+		<string>autopkg/apps/puppetlabs/facter</string>
 		<key>NAME</key>
 		<string>Facter</string>
 		<key>VERSION</key>
@@ -22,6 +22,10 @@
 			<string>Facter is an independent, cross-platform Ruby library designed to gather information on all the nodes you will managing with Puppet.</string>
 			<key>display_name</key>
 			<string>%NAME%</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>PuppetLabs</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
