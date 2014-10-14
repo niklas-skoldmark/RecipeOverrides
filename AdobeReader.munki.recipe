@@ -11,7 +11,7 @@
 		<key>MAJOR_VERSION</key>
 		<string>11</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>autopkg/apps/adobe</string>
+		<string>autopkg/apps/adobe/reader</string>
 		<key>NAME</key>
 		<string>AdobeReader</string>
 		<key>pkginfo</key>

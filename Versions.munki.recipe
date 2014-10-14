@@ -7,7 +7,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps</string>
+		<string>autopkg/apps/versions</string>
 		<key>NAME</key>
 		<string>Versions</string>
 		<key>SPARKLE_FEED_URL</key>
@@ -22,6 +22,10 @@
 			<string>Subversion client for Mac.</string>
 			<key>display_name</key>
 			<string>Versions</string>
+			<key>category</key>
+			<string>Admin</string>
+			<key>developer</key>
+			<string>BlackPixel</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

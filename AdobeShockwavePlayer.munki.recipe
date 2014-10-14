@@ -9,7 +9,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://fpdownload.macromedia.com/get/shockwave/default/english/macosx/latest/Shockwave_Installer_Full_64bit.dmg</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/adobe</string>
+		<string>autopkg/apps/adobe/shockwaveplayer</string>
 		<key>NAME</key>
 		<string>AdobeShockwavePlayer</string>
 		<key>pkginfo</key>
@@ -22,6 +22,10 @@
 			<string>Adobe Shockwave Player Plugin for Web Browsers</string>
 			<key>display_name</key>
 			<string>Adobe Shockwave Player</string>
+			<key>category</key>
+			<string>WebbPlugins</string>
+			<key>developer</key>
+			<string>Adobe</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
