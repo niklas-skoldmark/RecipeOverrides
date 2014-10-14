@@ -20,8 +20,8 @@
 			<string>fseventer is a GUI application that: (1) observes filesystem changes using the same underlying API as Spotlight; (2) provides a graphical representation of the file activity; (3) can be used to determine what files are changed via software installation, preferences, etc; (4) requires admin privileges to run.</string>
 			<key>category</key>
 			<string>Admin</string>
-			<key>Fern Lightning</key>
-			<string>Per Olofsson</string>
+			<key>developer</key>
+			<string>Fern Lightning</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>preuninstall_script</key>
