@@ -19,11 +19,11 @@
 			<key>description</key>
 			<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
 			<key>display_name</key>
+			<string>Oracle Java 8</string>
 			<key>category</key>
 			<string>WebbPlugins</string>
 			<key>developer</key>
 			<string>Oracle</string>
-			<string>Oracle Java 8</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
