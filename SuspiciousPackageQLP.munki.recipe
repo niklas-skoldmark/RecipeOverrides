@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.SuspiciousPackageQLP</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>SuspiciousPackageQLP</string>
+		<key>pkg_url</key>
+		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.pkg</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>description</key>
+			<string>Suspicious Package: A Quick Look Plug-in for OS X Installer Packages. What's in that OS X Installer package? With Suspicious Package, you can find out quickly and safely from the Finder. Select a package, and hit the space bar. http://www.mothersruin.com/software/SuspiciousPackage/</string>
+			<key>display_name</key>
+			<string>Suspicious Package QuickLook Plug-in</string>
+			<key>minimum_os_version</key>
+			<string>10.8</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postuninstall_script</key>
+			<string>#!/bin/bash
+console_user_uid="$(stat -f "%u" /dev/console)"
+console_user_username="$(id -un "${console_user_uid}")"
+if [[ -n "${console_user_username}" &amp;&amp; "${consle_user_username}" != "root" ]]; then
+	logger -is -t "munki-postuninstall_script" "User '${console_user_username}' at console. Calling qlmanage -r"
+	sudo -u $console_user_username /usr/bin/qlmanage -r
+fi
+exit 0
+			</string>
+		</dict>
+		<key>repo_subdirectory</key>
+		<string>plugins</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jps3.munki.SuspiciousPackageQLP</string>
+</dict>
+</plist>
