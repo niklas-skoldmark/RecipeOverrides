@@ -8,8 +8,6 @@
 	<dict>
 		<key>NAME</key>
 		<string>SuspiciousPackageQLP</string>
-		<key>MUNKI_REPO_SUBDIR</key>
-		<string>autopkg/apps/suspiciouspackage</string>
 		<key>pkg_url</key>
 		<string>http://www.mothersruin.com/software/downloads/SuspiciousPackage.pkg</string>
 		<key>pkginfo</key>
@@ -38,7 +36,7 @@ exit 0
 			</string>
 		</dict>
 		<key>repo_subdirectory</key>
-		<string>plugins</string>
+		<string>autopkg/apps/suspiciouspackage</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jps3.munki.SuspiciousPackageQLP</string>
