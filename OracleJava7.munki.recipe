@@ -10,10 +10,6 @@
 		<string>autopkg/apps/oracle/java7</string>
 		<key>NAME</key>
 		<string>OracleJava7</string>
-		<key>category</key>
-		<string>WebbPlugins</string>
-		<key>developer</key>
-		<string>Oracle</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -24,6 +20,10 @@
 			<string>Java SE Runtime Environment 7 enables support for running Java-powered applets and applications.</string>
 			<key>display_name</key>
 			<string>Oracle Java 7</string>
+			<key>category</key>
+			<string>WebbPlugins</string>
+			<key>developer</key>
+			<string>Oracle</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>

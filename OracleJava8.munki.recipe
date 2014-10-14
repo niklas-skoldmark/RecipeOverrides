@@ -10,10 +10,6 @@
 		<string>autopkg/apps/oracle/java8</string>
 		<key>NAME</key>
 		<string>OracleJava8</string>
-		<key>category</key>
-		<string>WebbPlugins</string>
-		<key>developer</key>
-		<string>oracle</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -23,6 +19,10 @@
 			<key>description</key>
 			<string>Java SE Runtime Environment 8 enables support for running Java-powered applets and applications.</string>
 			<key>display_name</key>
+			<key>category</key>
+			<string>WebbPlugins</string>
+			<key>developer</key>
+			<string>Oracle</string>
 			<string>Oracle Java 8</string>
 			<key>name</key>
 			<string>%NAME%</string>

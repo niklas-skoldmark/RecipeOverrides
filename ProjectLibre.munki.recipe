@@ -26,6 +26,8 @@
 			<string>Admin</string>
 			<key>developer</key>
 			<string>ProjectLibre</string>
+			<key>display_name</key>
+			<string>Project Libre</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>

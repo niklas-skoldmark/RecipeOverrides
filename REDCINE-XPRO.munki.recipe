@@ -10,10 +10,6 @@
 		<string>autopkg/apps/red</string>
 		<key>NAME</key>
 		<string>REDCINE-XPRO</string>
-		<key>category</key>
-		<string>Video</string>
-		<key>developer</key>
-		<string>RED</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -24,6 +20,10 @@
 			<string></string>
 			<key>display_name</key>
 			<string>REDCINE-X PRO</string>
+			<key>category</key>
+			<string>Video</string>
+			<key>developer</key>
+			<string>RED</string>
 			<key>name</key>
 			<string>%NAME%</string>
 		</dict>
